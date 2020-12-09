@@ -1,12 +1,6 @@
 <template>
   <div id="box1">
     <img class="images" alt="Header" src="../assets/head.png" />
-    <div id="nav" class="navigation">
-      <a href="/components/Home.vue">Home</a> |
-      <a href="/components/Benefits.vue">Benefits</a> |
-      <a href="/components/Register.vue">Register</a> |
-      <a href="/components/Contact.vue">Contact</a>
-    </div>
     <div id="box2">
       <div id="b_left" class="pads">
         <h2>Benefits for the Learner</h2>
@@ -55,7 +49,7 @@
 
 <script>
 export default {
-  name: "Benefits",
+  name: "BenefitsPage",
 };
 </script>
 
@@ -63,16 +57,12 @@ export default {
 #box1 {
   font-family: Arial, sans-serif;
   text-align: justify;
-  line-height: 3;
+  line-height: 2;
   font-size: 16px;
-  background-color: #f5f5f0;
+  background-color: rgb(255, 255, 230);
 }
 .images {
   width: 100%;
-}
-.navigation {
-  text-align: center;
-  padding: 0.5vw;
 }
 h1,
 h2,
@@ -80,25 +70,20 @@ h3 {
   text-align: center;
   color: orangered;
 }
-a {
-  color: orangered;
-  padding: 0 1vw;
-}
 ul {
-  list-style-type: "\1F44D";
+  list-style-type: "\1F341";
 }
 li {
-  padding: 0 1vw;
+  padding: 1vw;
 }
 #box2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  column-gap: 8vh;
+  column-gap: 1vw;
+  row-gap: 1vw;
 }
 .pads {
-  padding: 2vw 3vw;
+  padding: 1vw;
   background-color: white;
-  border: solid 1px rgb(250, 250, 246);
-  border-radius: 20px;
 }
 </style>

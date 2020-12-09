@@ -1,18 +1,20 @@
 <template>
   <div>
-    <home></home>
+    <div class="navigation">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/Benefits">Benefits</router-link> |
+      <router-link to="/Register">Register</router-link> |
+      <router-link to="/Contact">Contact</router-link>
+    </div>
+    <router-view />
   </div>
 </template>
 
-<script>
-import Home from "./components/Home.vue";
-
-export default {
-  name: "App",
-  components: {
-    Home,
-  },
-};
-</script>
-
-<style></style>
+<style scoped>
+.navigation {
+  text-align: right;
+  padding: 1.5vw 3vw;
+  color: black;
+  background-color: rgb(255, 255, 230);
+}
+</style>
