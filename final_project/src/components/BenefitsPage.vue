@@ -3,10 +3,16 @@
     <header-page />
     <div id="box2">
       <div id="b_left" class="pads">
-        <h2>Benefits for the Learner</h2>
+        <div class="frame">
+          <h2>Benefits for the Learner</h2>
+        </div>
+        <h3>What Are The Key Advantages</h3>
         <ul>
           <li>
-            Develop your web development skills
+            Develop your
+            <a href="https://www.thinkful.com/blog/web-development-career-path/"
+              >web development skills</a
+            >
           </li>
           <li>
             Learn new web development technologies
@@ -23,7 +29,10 @@
         </ul>
       </div>
       <div id="b_right" class="pads">
-        <h2>Benefits for the Tutor</h2>
+        <div class="frame">
+          <h2>Benefits for the Tutor</h2>
+        </div>
+        <h3>Why You Should Participate</h3>
         <ul>
           <li>
             Be recognized as a socially responsible professional
@@ -32,7 +41,11 @@
             Connect with like-minded web development professionals
           </li>
           <li>
-            Build a professional web development legacy
+            Build a professional
+            <a
+              href="https://leadershipfreak.blog/2014/03/04/10-ways-to-build-powerful-legacy-now/"
+              >web development legacy</a
+            >
           </li>
           <li>
             Network with potential web development trainees
@@ -75,7 +88,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  color: orangered;
 }
 ul {
   list-style-type: "\1F44D";
@@ -88,6 +100,11 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 1vw;
   row-gap: 1vw;
+}
+.frame {
+  background-color: #0077e6;
+  border-radius: 25px 25px 0px 0px;
+  color: white;
 }
 .pads {
   padding: 1vw;

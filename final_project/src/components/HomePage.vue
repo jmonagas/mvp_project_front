@@ -3,7 +3,9 @@
     <header-page />
     <div id="box2">
       <div id="b_left" class="pads">
-        <h2>Web Development Learner</h2>
+        <div class="frame">
+          <h2>Web Development Learner</h2>
+        </div>
         <h3>In Order To Qualify</h3>
         <ul>
           <li>
@@ -25,7 +27,9 @@
         </ul>
       </div>
       <div id="b_right" class="pads">
-        <h2>Web Development Tutor</h2>
+        <div class="frame">
+          <h2>Web Development Tutor</h2>
+        </div>
         <h3>In Order To Qualify</h3>
         <ul>
           <li>
@@ -79,7 +83,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  color: orangered;
 }
 ul {
   list-style-type: "\1F44D";
@@ -92,6 +95,11 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 1vw;
   row-gap: 1vw;
+}
+.frame {
+  background-color: #0077e6;
+  border-radius: 25px 25px 0px 0px;
+  color: white;
 }
 .pads {
   padding: 1vw;

@@ -3,7 +3,10 @@
     <header-page />
     <div id="box2">
       <div id="b_left" class="pads">
-        <h2>About Me</h2>
+        <div class="frame">
+          <h2>About Me</h2>
+        </div>
+        <h3>Why I Am Doing This</h3>
         <ul>
           <li>
             My name is Jose G. Monagas
@@ -23,13 +26,16 @@
         </ul>
       </div>
       <div id="b_right" class="pads">
-        <h2>Contact Me</h2>
+        <div class="frame">
+          <h2>Contact Me</h2>
+        </div>
+        <h3>Let's Start A Conversation</h3>
         <ul>
           <li>
-            To contact Jose G. Monagas
+            To get in touch with Jose G. Monagas
           </li>
           <li>
-            You may email him at: jmonagas@hotmail.ca
+            Please send a brief email at: jmonagas@hotmail.ca
           </li>
           <li>
             I live in Calgary, Alberta, Canada
@@ -75,7 +81,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  color: orangered;
 }
 ul {
   list-style-type: "\1F44D";
@@ -88,6 +93,11 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 1vw;
   row-gap: 1vw;
+}
+.frame {
+  background-color: #0077e6;
+  border-radius: 25px 25px 0px 0px;
+  color: white;
 }
 .pads {
   padding: 1vw;

@@ -13,8 +13,8 @@
 <style scoped>
 .navigation {
   text-align: right;
-  padding: 1.5vw 3vw;
+  padding: 2vw;
+  background-color: #ffffcc;
   color: black;
-  background-color: rgb(255, 255, 230);
 }
 </style>
