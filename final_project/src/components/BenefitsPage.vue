@@ -1,6 +1,6 @@
 <template>
   <div id="box1">
-    <img class="images" alt="Header" src="../assets/head.png" />
+    <header-page />
     <div id="box2">
       <div id="b_left" class="pads">
         <h2>Benefits for the Learner</h2>
@@ -43,13 +43,20 @@
         </ul>
       </div>
     </div>
-    <img class="images" alt="Footer" src="../assets/foot.png" />
+    <footer-page />
   </div>
 </template>
 
 <script>
+import HeaderPage from "@/components/HeaderPage.vue";
+import FooterPage from "@/components/FooterPage.vue";
+
 export default {
   name: "BenefitsPage",
+  components: {
+    HeaderPage,
+    FooterPage,
+  },
 };
 </script>
 
@@ -71,7 +78,7 @@ h3 {
   color: orangered;
 }
 ul {
-  list-style-type: "\1F341";
+  list-style-type: "\1F44D";
 }
 li {
   padding: 1vw;
