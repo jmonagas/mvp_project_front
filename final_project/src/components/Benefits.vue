@@ -9,46 +9,42 @@
     </div>
     <div id="box2">
       <div id="b_left" class="pads">
-        <h2>Web Development Learner</h2>
-        <h3>In Order To Qualify</h3>
+        <h2>Benefits for the Learner</h2>
         <ul>
           <li>
-            You must be a student enrolled in a web development program in
-            Canada
+            Develop your web development skills
           </li>
           <li>
-            You must be of legal age and willing to be subjected to a background
-            check
+            Learn new web development technologies
           </li>
           <li>
-            You must submit a monthly report of your progress both at your
-            college/university and the assignments given by your tutor
+            Create a professional web development portfolio
           </li>
           <li>
-            <b>Disclaimer:</b> This is not a dating site. We cannot guarantee
-            that a tutor will accept your candidacy. We do not hire participants
+            Network with web development professionals
+          </li>
+          <li>
+            Acquire professional experience without stress
           </li>
         </ul>
       </div>
       <div id="b_right" class="pads">
-        <h2>Web Development Tutor</h2>
-        <h3>In Order To Qualify</h3>
+        <h2>Benefits for the Tutor</h2>
         <ul>
           <li>
-            You must be currently a professional in web development in Canada
+            Be recognized as a socially responsible professional
           </li>
           <li>
-            You must be of legal age and willing to be subjected to a background
-            check
+            Connect with like-minded web development professionals
           </li>
           <li>
-            You must submit a monthly report of your student's progress and the
-            assignments given by you
+            Build a professional web development legacy
           </li>
           <li>
-            <b>Disclaimer:</b> This is not a dating site. We cannot guarantee
-            that a student will accept your candidacy. We do not hire
-            participants
+            Network with potential web development trainees
+          </li>
+          <li>
+            Help shape the future of the web development industry
           </li>
         </ul>
       </div>
@@ -59,7 +55,7 @@
 
 <script>
 export default {
-  name: "Home",
+  name: "Benefits",
 };
 </script>
 
