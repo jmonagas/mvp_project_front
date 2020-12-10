@@ -1,6 +1,7 @@
 <template>
-  <div id="box100">
-    <img class="images" alt="Footer" src="../assets/foot.png" />
+  <div id="foot_box">
+    <div id="lefty">Copyright &copy; 2021 Jose G. Monagas</div>
+    <div id="righty"></div>
   </div>
 </template>
 
@@ -9,10 +10,20 @@ export default { name: "FooterPage" };
 </script>
 
 <style scoped>
-#box100 {
-  background-color: rgb(255, 255, 230);
+#foot_box {
+  background-color: #ffffcc;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-.images {
-  width: 100%;
+#lefty {
+  background-color: gold;
+  padding: 1vw 0;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  border-radius: 25px 25px 0 0;
+}
+#righty {
+  border-bottom: solid 3px gold;
 }
 </style>

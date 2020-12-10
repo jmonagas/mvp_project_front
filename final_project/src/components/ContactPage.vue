@@ -4,9 +4,9 @@
     <div id="box2">
       <div id="b_left" class="pads">
         <div class="frame">
-          <h2>About Me</h2>
+          <h3>About Me</h3>
         </div>
-        <h3>Why I Am Doing This</h3>
+        <h4>Why I Am Doing This</h4>
         <ul>
           <li>
             My name is Jose G. Monagas
@@ -27,9 +27,9 @@
       </div>
       <div id="b_right" class="pads">
         <div class="frame">
-          <h2>Contact Me</h2>
+          <h3>Contact Me</h3>
         </div>
-        <h3>Let's Start A Conversation</h3>
+        <h4>Let's Start A Conversation</h4>
         <ul>
           <li>
             To get in touch with Jose G. Monagas
@@ -72,18 +72,19 @@ export default {
   text-align: justify;
   line-height: 2;
   font-size: 16px;
-  background-color: rgb(255, 255, 230);
-}
-.images {
-  width: 100%;
+  background-color: #ffffcc;
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
+  padding: 1vw 0;
 }
 ul {
-  list-style-type: "\1F44D";
+  list-style-type: "\2751";
+  margin-right: 2vh;
+  margin-left: 1.5vh;
 }
 li {
   padding: 1vw;
@@ -93,6 +94,7 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 1vw;
   row-gap: 1vw;
+  background-color: #ffffcc;
 }
 .frame {
   background-color: #0077e6;

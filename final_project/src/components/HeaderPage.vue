@@ -1,5 +1,5 @@
 <template>
-  <div id="box100">
+  <div id="head_box">
     <img class="images" alt="Header" src="../assets/head.png" />
   </div>
 </template>
@@ -9,8 +9,8 @@ export default { name: "HeaderPage" };
 </script>
 
 <style scoped>
-#box100 {
-  background-color: rgb(255, 255, 230);
+#head_box {
+  background-color: #ffffcc;
 }
 .images {
   width: 100%;

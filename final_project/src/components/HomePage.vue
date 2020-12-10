@@ -4,9 +4,9 @@
     <div id="box2">
       <div id="b_left" class="pads">
         <div class="frame">
-          <h2>Web Development Learner</h2>
+          <h3>Web Development Learner</h3>
         </div>
-        <h3>In Order To Qualify</h3>
+        <h4>In Order To Qualify</h4>
         <ul>
           <li>
             You must be a student enrolled in a web development program in
@@ -28,9 +28,9 @@
       </div>
       <div id="b_right" class="pads">
         <div class="frame">
-          <h2>Web Development Tutor</h2>
+          <h3>Web Development Tutor</h3>
         </div>
-        <h3>In Order To Qualify</h3>
+        <h4>In Order To Qualify</h4>
         <ul>
           <li>
             You must be currently a professional in web development in Canada
@@ -74,18 +74,19 @@ export default {
   text-align: justify;
   line-height: 2;
   font-size: 16px;
-  background-color: rgb(255, 255, 230);
-}
-.images {
-  width: 100%;
+  background-color: #ffffcc;
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
+  padding: 1vw 0;
 }
 ul {
-  list-style-type: "\1F44D";
+  list-style-type: "\2751";
+  margin-right: 2vh;
+  margin-left: 1.5vh;
 }
 li {
   padding: 1vw;
@@ -95,6 +96,7 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 1vw;
   row-gap: 1vw;
+  background-color: #ffffcc;
 }
 .frame {
   background-color: #0077e6;

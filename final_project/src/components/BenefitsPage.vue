@@ -4,13 +4,15 @@
     <div id="box2">
       <div id="b_left" class="pads">
         <div class="frame">
-          <h2>Benefits for the Learner</h2>
+          <h3>Benefits for the Learner</h3>
         </div>
-        <h3>What Are The Key Advantages</h3>
+        <h4>What Are The Key Advantages</h4>
         <ul>
           <li>
             Develop your
-            <a href="https://www.thinkful.com/blog/web-development-career-path/"
+            <a
+              href="https://www.thinkful.com/blog/web-development-career-path/"
+              target="_blank"
               >web development skills</a
             >
           </li>
@@ -30,9 +32,9 @@
       </div>
       <div id="b_right" class="pads">
         <div class="frame">
-          <h2>Benefits for the Tutor</h2>
+          <h3>Benefits for the Tutor</h3>
         </div>
-        <h3>Why You Should Participate</h3>
+        <h4>Why You Should Participate</h4>
         <ul>
           <li>
             Be recognized as a socially responsible professional
@@ -44,6 +46,7 @@
             Build a professional
             <a
               href="https://leadershipfreak.blog/2014/03/04/10-ways-to-build-powerful-legacy-now/"
+              target="_blank"
               >web development legacy</a
             >
           </li>
@@ -79,18 +82,19 @@ export default {
   text-align: justify;
   line-height: 2;
   font-size: 16px;
-  background-color: rgb(255, 255, 230);
-}
-.images {
-  width: 100%;
+  background-color: #ffffcc;
 }
 h1,
 h2,
-h3 {
+h3,
+h4 {
   text-align: center;
+  padding: 1vw 0;
 }
 ul {
-  list-style-type: "\1F44D";
+  list-style-type: "\2751";
+  margin-right: 2vh;
+  margin-left: 1.5vh;
 }
 li {
   padding: 1vw;
@@ -100,6 +104,7 @@ li {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   column-gap: 1vw;
   row-gap: 1vw;
+  background-color: #ffffcc;
 }
 .frame {
   background-color: #0077e6;
