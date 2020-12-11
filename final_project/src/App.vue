@@ -4,7 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/Benefits">Benefits</router-link> |
       <router-link to="/Register">Register</router-link> |
-      <router-link to="/Contact">Contact</router-link>
+      <router-link to="/Contact">Contact</router-link> |
+      <router-link to="/Resources">Resources</router-link>
     </div>
     <router-view />
   </div>
