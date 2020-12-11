@@ -9,19 +9,35 @@
         <h4>Please Fill Out All Fields</h4>
         <ul>
           <li>
-            <input class="registry" placeholder="First Name" type="text" />
+            <input
+              class="registry"
+              placeholder="First Name"
+              type="text"
+              v-model="first_name"
+            />
           </li>
           <li>
-            <input class="registry" placeholder="Middle Name" type="text" />
+            <input
+              class="registry"
+              placeholder="Middle Name"
+              type="text"
+              v-model="middle_name"
+            />
           </li>
           <li>
-            <input class="registry" placeholder="Last Name" type="text" />
+            <input
+              class="registry"
+              placeholder="Last Name"
+              type="text"
+              v-model="last_name"
+            />
           </li>
           <li>
             <input
               class="registry"
               placeholder="University/College"
               type="text"
+              v-model="university"
             />
           </li>
           <li>
@@ -29,6 +45,7 @@
               class="registry"
               placeholder="Program/Specialty"
               type="text"
+              v-model="program"
             />
           </li>
           <li>
@@ -36,13 +53,29 @@
               class="registry"
               placeholder="Short Bio (max 250 chars)"
               type="text"
+              v-model="bio"
             />
           </li>
           <li>
-            <input class="registry" placeholder="Email Address" type="text" />
+            <input
+              class="registry"
+              placeholder="Email Address"
+              type="text"
+              v-model="email"
+            />
           </li>
           <li>
-            <input class="registry" placeholder="Phone Number" type="text" />
+            <input
+              class="registry"
+              placeholder="Phone Number"
+              type="text"
+              v-model="phone"
+            />
+          </li>
+          <li>
+            <button class="btn" @click="RegisterLearner">
+              Submit Form
+            </button>
           </li>
         </ul>
       </div>
@@ -53,19 +86,35 @@
         <h4>Please Fill Out All Fields</h4>
         <ul>
           <li>
-            <input class="registry" placeholder="First Name" type="text" />
+            <input
+              class="registry"
+              placeholder="First Name"
+              type="text"
+              v-model="first_name"
+            />
           </li>
           <li>
-            <input class="registry" placeholder="Middle Name" type="text" />
+            <input
+              class="registry"
+              placeholder="Middle Name"
+              type="text"
+              v-model="middle_name"
+            />
           </li>
           <li>
-            <input class="registry" placeholder="Last Name" type="text" />
+            <input
+              class="registry"
+              placeholder="Last Name"
+              type="text"
+              v-model="last_name"
+            />
           </li>
           <li>
             <input
               class="registry"
               placeholder="University/College"
               type="text"
+              v-model="university"
             />
           </li>
           <li>
@@ -73,6 +122,7 @@
               class="registry"
               placeholder="Program/Specialty"
               type="text"
+              v-model="program"
             />
           </li>
           <li>
@@ -80,13 +130,27 @@
               class="registry"
               placeholder="Short Bio (max 250 chars)"
               type="text"
+              v-model="bio"
             />
           </li>
           <li>
-            <input class="registry" placeholder="Email Address" type="text" />
+            <input
+              class="registry"
+              placeholder="Email Address"
+              type="text"
+              v-model="email"
+            />
           </li>
           <li>
-            <input class="registry" placeholder="Phone Number" type="text" />
+            <input
+              class="registry"
+              placeholder="Phone Number"
+              type="text"
+              v-model="phone"
+            />
+          </li>
+          <li>
+            <button class="btn" @click="RegisterTutor">Submit Form</button>
           </li>
         </ul>
       </div>
@@ -98,12 +162,83 @@
 <script>
 import HeaderPage from "@/components/HeaderPage.vue";
 import FooterPage from "@/components/FooterPage.vue";
+import axios from "axios";
 
 export default {
   name: "RegisterPage",
   components: {
     HeaderPage,
     FooterPage,
+  },
+  data() {
+    return {
+      first_name: "",
+      middle_name: "",
+      last_name: "",
+      university: "",
+      program: "",
+      bio: "",
+      email: "",
+      phone: "",
+    };
+  },
+  methods: {
+    RegisterLearner: function() {
+      axios
+        .request({
+          method: "POST",
+          url: "http://127.0.0.1:5000/api/learners",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          data: {
+            first_name: this.first_name,
+            middle_name: this.middle_name,
+            last_name: this.last_name,
+            university: this.university,
+            program: this.program,
+            bio: this.bio,
+            email: this.email,
+            phone: this.phone,
+          },
+        })
+        .then((response) => {
+          alert("You Have Registered Yourself As A Learner");
+          console.log(response);
+        })
+        .catch((error) => {
+          console.log(error);
+          alert("Your Learner Registration Failed");
+        });
+    },
+    RegisterTutor: function() {
+      axios
+        .request({
+          method: "POST",
+          url: "http://127.0.0.1:5000/api/tutors",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          data: {
+            first_name: this.first_name,
+            middle_name: this.middle_name,
+            last_name: this.last_name,
+            university: this.university,
+            program: this.program,
+            bio: this.bio,
+            email: this.email,
+            phone: this.phone,
+          },
+        })
+        .then((response) => {
+          alert("You Have Registered Yourself As A Tutor");
+          console.log(response);
+        })
+        .catch((error) => {
+          console.log(error);
+          alert("Your Tutor Registration Failed");
+        });
+    },
   },
 };
 </script>
@@ -150,5 +285,9 @@ li {
   padding: 1vh;
   width: 90%;
   background-color: #f8f8f8;
+}
+.btn {
+  padding: 1vh;
+  text-align: center;
 }
 </style>
