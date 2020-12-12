@@ -7,6 +7,7 @@
     </div>
     <div id="box2">
       <div>
+        <h5>HTML For Beginners</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/UB1O30fR-EE"
@@ -17,6 +18,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>JavaScript For Beginners</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/hdI2bqOjy3c"
@@ -27,6 +29,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>CSS For Beginners</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/yfoY53QXEnI"
@@ -37,6 +40,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Bash Terminal for Beginners</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/oxuRxtrO2Ag"
@@ -47,6 +51,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Vuex State Management</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/5lVQgZzLMHc"
@@ -57,6 +62,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Git and GitHub for Beginners</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/SWYqp7iY_Tc"
@@ -67,6 +73,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>GitHub Branches for Beginners</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/QV0kVNvkMxc"
@@ -77,6 +84,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Python for Beginners (1)</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/_uQrJ0TkZlc"
@@ -87,6 +95,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Python for Beginners (2)</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/JJmcL1N2KQs"
@@ -97,6 +106,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Flask for Python</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/Z1RJmh_OqeA"
@@ -107,6 +117,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Python and Flask REST API</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/GMppyAPbLYk"
@@ -117,6 +128,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>SQL for Beginners</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/7S_tz1z_5bA"
@@ -127,6 +139,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Apache HTTP Server</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/fRLJ3bnbHmE"
@@ -137,6 +150,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Deployment, SSL and Encrypt</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/oykl1Ih9pMg"
@@ -147,6 +161,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>SSH and DevOps</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/hQWRp-FdTpc"
@@ -157,6 +172,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>CSS and Grid Layout</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/jV8B24rSN5o"
@@ -167,6 +183,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Python Lists, Tuples and Sets</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/W8KRzm-HUcc"
@@ -177,6 +194,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Axios and HTTP Library</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/6LyagkoRWYA"
@@ -187,6 +205,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>AJAX and Vanilla JavaScript</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/82hnvUYY6QA"
@@ -197,6 +216,7 @@
         ></iframe>
       </div>
       <div>
+        <h5>Databases and E-R Diagrams</h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/ZBgXb66Ckz0"
@@ -239,7 +259,7 @@ export default {
 }
 .frames {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .epads {
   color: black;
