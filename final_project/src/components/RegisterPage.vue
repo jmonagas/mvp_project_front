@@ -13,7 +13,7 @@
               class="registry"
               placeholder="First Name"
               type="text"
-              v-model="first_name"
+              v-model="learner_first_name"
             />
           </li>
           <li>
@@ -21,7 +21,7 @@
               class="registry"
               placeholder="Middle Name"
               type="text"
-              v-model="middle_name"
+              v-model="learner_middle_name"
             />
           </li>
           <li>
@@ -29,7 +29,7 @@
               class="registry"
               placeholder="Last Name"
               type="text"
-              v-model="last_name"
+              v-model="learner_last_name"
             />
           </li>
           <li>
@@ -37,7 +37,7 @@
               class="registry"
               placeholder="University/College"
               type="text"
-              v-model="university"
+              v-model="learner_university"
             />
           </li>
           <li>
@@ -45,7 +45,7 @@
               class="registry"
               placeholder="Program/Specialty"
               type="text"
-              v-model="program"
+              v-model="learner_program"
             />
           </li>
           <li>
@@ -53,7 +53,7 @@
               class="registry"
               placeholder="Short Bio (max 250 chars)"
               type="text"
-              v-model="bio"
+              v-model="learner_bio"
             />
           </li>
           <li>
@@ -61,7 +61,7 @@
               class="registry"
               placeholder="Email Address"
               type="text"
-              v-model="email"
+              v-model="learner_email"
             />
           </li>
           <li>
@@ -69,7 +69,7 @@
               class="registry"
               placeholder="Phone Number"
               type="text"
-              v-model="phone"
+              v-model="learner_phone"
             />
           </li>
           <li>
@@ -90,7 +90,7 @@
               class="registry"
               placeholder="First Name"
               type="text"
-              v-model="first_name"
+              v-model="tutor_first_name"
             />
           </li>
           <li>
@@ -98,7 +98,7 @@
               class="registry"
               placeholder="Middle Name"
               type="text"
-              v-model="middle_name"
+              v-model="tutor_middle_name"
             />
           </li>
           <li>
@@ -106,7 +106,7 @@
               class="registry"
               placeholder="Last Name"
               type="text"
-              v-model="last_name"
+              v-model="tutor_last_name"
             />
           </li>
           <li>
@@ -114,7 +114,7 @@
               class="registry"
               placeholder="University/College"
               type="text"
-              v-model="university"
+              v-model="tutor_university"
             />
           </li>
           <li>
@@ -122,7 +122,7 @@
               class="registry"
               placeholder="Program/Specialty"
               type="text"
-              v-model="program"
+              v-model="tutor_program"
             />
           </li>
           <li>
@@ -130,7 +130,7 @@
               class="registry"
               placeholder="Short Bio (max 250 chars)"
               type="text"
-              v-model="bio"
+              v-model="tutor_bio"
             />
           </li>
           <li>
@@ -138,7 +138,7 @@
               class="registry"
               placeholder="Email Address"
               type="text"
-              v-model="email"
+              v-model="tutor_email"
             />
           </li>
           <li>
@@ -146,7 +146,7 @@
               class="registry"
               placeholder="Phone Number"
               type="text"
-              v-model="phone"
+              v-model="tutor_phone"
             />
           </li>
           <li>
@@ -172,14 +172,23 @@ export default {
   },
   data() {
     return {
-      first_name: "",
-      middle_name: "",
-      last_name: "",
-      university: "",
-      program: "",
-      bio: "",
-      email: "",
-      phone: "",
+      learner_first_name: "",
+      learner_middle_name: "",
+      learner_last_name: "",
+      learner_university: "",
+      learner_program: "",
+      learner_bio: "",
+      learner_email: "",
+      learner_phone: "",
+
+      tutor_first_name: "",
+      tutor_middle_name: "",
+      tutor_last_name: "",
+      tutor_university: "",
+      tutor_program: "",
+      tutor_bio: "",
+      tutor_email: "",
+      tutor_phone: "",
     };
   },
   methods: {
@@ -192,14 +201,14 @@ export default {
             "Content-Type": "application/json",
           },
           data: {
-            first_name: this.first_name,
-            middle_name: this.middle_name,
-            last_name: this.last_name,
-            university: this.university,
-            program: this.program,
-            bio: this.bio,
-            email: this.email,
-            phone: this.phone,
+            learner_first_name: this.learner_first_name,
+            learner_middle_name: this.learner_middle_name,
+            learner_last_name: this.learner_last_name,
+            learner_university: this.learner_university,
+            learner_program: this.learner_program,
+            learner_bio: this.learner_bio,
+            learner_email: this.learner_email,
+            learner_phone: this.learner_phone,
           },
         })
         .then((response) => {
@@ -220,14 +229,14 @@ export default {
             "Content-Type": "application/json",
           },
           data: {
-            first_name: this.first_name,
-            middle_name: this.middle_name,
-            last_name: this.last_name,
-            university: this.university,
-            program: this.program,
-            bio: this.bio,
-            email: this.email,
-            phone: this.phone,
+            tutor_first_name: this.tutor_first_name,
+            tutor_middle_name: this.tutor_middle_name,
+            tutor_last_name: this.tutor_last_name,
+            tutor_university: this.tutor_university,
+            tutor_program: this.tutor_program,
+            tutor_bio: this.tutor_bio,
+            tutor_email: this.tutor_email,
+            tutor_phone: this.tutor_phone,
           },
         })
         .then((response) => {
@@ -273,9 +282,12 @@ li {
   background-color: #ffffcc;
 }
 .frame {
-  background-color: #0077e6;
+  background-color: #3333ff;
   border-radius: 25px 25px 0px 0px;
   color: white;
+}
+.frame:hover {
+  border: 1px solid black;
 }
 .pads {
   padding: 1vw;

@@ -97,9 +97,12 @@ li {
   background-color: #ffffcc;
 }
 .frame {
-  background-color: #0077e6;
+  background-color: #3333ff;
   border-radius: 25px 25px 0px 0px;
   color: white;
+}
+.frame:hover {
+  border: 1px solid black;
 }
 .pads {
   padding: 1vw;

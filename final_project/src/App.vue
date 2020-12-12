@@ -13,9 +13,16 @@
 
 <style scoped>
 .navigation {
-  text-align: right;
-  padding: 2vw;
+  text-align: center;
+  font-size: 14px;
+  padding: 1.5vh;
   background-color: #ffffcc;
   color: black;
+}
+a:hover {
+  background-color: #ffcc00;
+  color: white;
+  padding: 0.5vw;
+  text-decoration: none;
 }
 </style>
