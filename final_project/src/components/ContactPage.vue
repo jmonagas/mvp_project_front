@@ -9,7 +9,7 @@
         <h4>Why I Am Doing This</h4>
         <ul>
           <li>
-            My name is Jose G. Monagas
+            My name is Jose G. Monagas. Currently, I am a student
           </li>
           <li>
             This is the final project to get my web developer diploma
@@ -32,19 +32,17 @@
         <h4>Let's Start A Conversation</h4>
         <ul>
           <li>
-            To get in touch with Jose G. Monagas
+            To get in touch with the author of this website
+          </li>
+          <li>Please send a brief email at: <b>jmonagas@hotmail.ca</b></li>
+          <li>
+            I live in Calgary, Alberta, Canada since June 2009
           </li>
           <li>
-            Please send a brief email at: jmonagas@hotmail.ca
+            Please note this is unconditionally a volunteer work
           </li>
           <li>
-            I live in Calgary, Alberta, Canada
-          </li>
-          <li>
-            This is unconditionally a volunteer work
-          </li>
-          <li>
-            As I do not get paid for this activism
+            As such, I do not get paid for this kind of activism
           </li>
         </ul>
       </div>

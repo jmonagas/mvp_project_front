@@ -7,7 +7,11 @@
     </div>
     <div id="box2">
       <div>
-        <h5>HTML For Beginners</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/UB1O30fR-EE" target="_blank"
+            >HTML For Beginners</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/UB1O30fR-EE"
@@ -18,7 +22,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>JavaScript For Beginners</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/hdI2bqOjy3c" target="_blank"
+            >JavaScript For Beginners</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/hdI2bqOjy3c"
@@ -29,7 +37,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>CSS For Beginners</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/yfoY53QXEnI" target="_blank"
+            >CSS For Beginners</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/yfoY53QXEnI"
@@ -40,7 +52,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Bash Terminal for Beginners</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/oxuRxtrO2Ag" target="_blank"
+            >Bash Terminal for Beginners</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/oxuRxtrO2Ag"
@@ -51,7 +67,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Vuex State Management</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/5lVQgZzLMHc" target="_blank"
+            >Vuex State Management</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/5lVQgZzLMHc"
@@ -62,7 +82,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Git and GitHub for Beginners</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/SWYqp7iY_Tc" target="_blank"
+            >Git and GitHub for Beginners</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/SWYqp7iY_Tc"
@@ -73,7 +97,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>GitHub Branches for Beginners</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/QV0kVNvkMxc" target="_blank"
+            >GitHub Branches for Beginners</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/QV0kVNvkMxc"
@@ -84,7 +112,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Python for Beginners (1)</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/_uQrJ0TkZlc" target="_blank"
+            >Python for Beginners (1)</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/_uQrJ0TkZlc"
@@ -95,7 +127,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Python for Beginners (2)</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/JJmcL1N2KQs" target="_blank"
+            >Python for Beginners (2)</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/JJmcL1N2KQs"
@@ -106,7 +142,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Flask for Python</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/Z1RJmh_OqeA" target="_blank"
+            >Flask for Python</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/Z1RJmh_OqeA"
@@ -117,7 +157,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Python and Flask REST API</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/GMppyAPbLYk" target="_blank"
+            >Python and Flask REST API</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/GMppyAPbLYk"
@@ -128,7 +172,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>SQL for Beginners</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/7S_tz1z_5bA" target="_blank"
+            >SQL for Beginners</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/7S_tz1z_5bA"
@@ -139,7 +187,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Apache HTTP Server</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/fRLJ3bnbHmE" target="_blank"
+            >Apache HTTP Server</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/fRLJ3bnbHmE"
@@ -150,7 +202,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Deployment, SSL and Encrypt</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/oykl1Ih9pMg" target="_blank"
+            >Deployment, SSL and Encrypt</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/oykl1Ih9pMg"
@@ -161,7 +217,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>SSH and DevOps</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/hQWRp-FdTpc" target="_blank"
+            >SSH and DevOps</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/hQWRp-FdTpc"
@@ -172,7 +232,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>CSS and Grid Layout</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/jV8B24rSN5o" target="_blank"
+            >CSS and Grid Layout</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/jV8B24rSN5o"
@@ -183,7 +247,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Python Lists, Tuples and Sets</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/W8KRzm-HUcc" target="_blank"
+            >Python Lists, Tuples and Sets</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/W8KRzm-HUcc"
@@ -194,7 +262,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Axios and HTTP Library</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/6LyagkoRWYA" target="_blank"
+            >Axios and HTTP Library</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/6LyagkoRWYA"
@@ -205,7 +277,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>AJAX and Vanilla JavaScript</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/82hnvUYY6QA" target="_blank"
+            >AJAX and Vanilla JavaScript</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/82hnvUYY6QA"
@@ -216,7 +292,11 @@
         ></iframe>
       </div>
       <div>
-        <h5>Databases and E-R Diagrams</h5>
+        <h5>
+          <a href="https://www.youtube.com/embed/ZBgXb66Ckz0" target="_blank"
+            >Databases and E-R Diagrams</a
+          >
+        </h5>
         <iframe
           class="frames"
           src="https://www.youtube.com/embed/ZBgXb66Ckz0"
@@ -270,5 +350,8 @@ h2,
 h3 {
   color: #3333ff;
   padding-top: 1vw;
+}
+h5 {
+  text-align: center;
 }
 </style>

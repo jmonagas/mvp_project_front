@@ -6,14 +6,16 @@
         <div class="frame">
           <h3>Benefits for the Learner</h3>
         </div>
-        <h4>What Are The Key Advantages</h4>
+        <h4>What The Key Advantages Are</h4>
         <ul>
           <li>
             Develop your
-            <a
-              href="https://www.thinkful.com/blog/web-development-career-path/"
-              target="_blank"
-              >web development skills</a
+            <b
+              ><a
+                href="https://www.thinkful.com/blog/web-development-career-path/"
+                target="_blank"
+                >web development skills</a
+              ></b
             >
           </li>
           <li>
@@ -44,10 +46,12 @@
           </li>
           <li>
             Build a professional
-            <a
-              href="https://leadershipfreak.blog/2014/03/04/10-ways-to-build-powerful-legacy-now/"
-              target="_blank"
-              >web development legacy</a
+            <b
+              ><a
+                href="https://leadershipfreak.blog/2014/03/04/10-ways-to-build-powerful-legacy-now/"
+                target="_blank"
+                >web development legacy</a
+              ></b
             >
           </li>
           <li>
