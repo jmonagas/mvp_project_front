@@ -15,7 +15,7 @@
 .navigation {
   text-align: center;
   font-size: 14px;
-  padding: 1.5vh;
+  padding: 20px 0;
   background-color: #ffffcc;
   color: black;
 }

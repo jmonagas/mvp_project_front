@@ -196,7 +196,7 @@ export default {
       axios
         .request({
           method: "POST",
-          url: "http://127.0.0.1:5000/api/learners",
+          url: "https://jmonagas-mvp-full-stack.ml/api/learners",
           headers: {
             "Content-Type": "application/json",
           },
@@ -224,7 +224,7 @@ export default {
       axios
         .request({
           method: "POST",
-          url: "http://127.0.0.1:5000/api/tutors",
+          url: "https://jmonagas-mvp-full-stack.ml/api/tutors",
           headers: {
             "Content-Type": "application/json",
           },
@@ -285,6 +285,7 @@ li {
   background-color: #3333ff;
   border-radius: 25px 25px 0px 0px;
   color: white;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 .frame:hover {
   border: 1px solid black;

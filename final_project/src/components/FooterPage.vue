@@ -22,6 +22,7 @@ export default { name: "FooterPage" };
   font-size: 14px;
   color: black;
   border-radius: 25px 25px 0 0;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 #righty {
   border-bottom: solid 3px gold;

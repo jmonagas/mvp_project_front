@@ -34,7 +34,7 @@
           <li>
             To get in touch with the author of this website
           </li>
-          <li>Please send a brief email at: <b>jmonagas@hotmail.ca</b></li>
+          <li>Please send a brief email at <b>jmonagas@hotmail.ca</b></li>
           <li>
             I live in Calgary, Alberta, Canada since June 2009
           </li>
@@ -98,6 +98,7 @@ li {
   background-color: #3333ff;
   border-radius: 25px 25px 0px 0px;
   color: white;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 .frame:hover {
   border: 1px solid black;

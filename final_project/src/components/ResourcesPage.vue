@@ -339,7 +339,10 @@ export default {
 }
 .frames {
   width: 100%;
-  height: auto;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
+}
+.frames:hover {
+  border: solid 2px gold;
 }
 .epads {
   color: black;
@@ -353,5 +356,12 @@ h3 {
 }
 h5 {
   text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #3333ff;
+}
+a:hover {
+  font-weight: bolder;
 }
 </style>

@@ -6,7 +6,7 @@
         <div class="frame">
           <h3>Benefits for the Learner</h3>
         </div>
-        <h4>What The Key Advantages Are</h4>
+        <h4>The Five Key Advantages</h4>
         <ul>
           <li>
             Develop your
@@ -114,6 +114,7 @@ li {
   background-color: #3333ff;
   border-radius: 25px 25px 0px 0px;
   color: white;
+  box-shadow: 0 4px 8px 0 gray, 0 6px 20px 0 gray;
 }
 .frame:hover {
   border: 1px solid black;
