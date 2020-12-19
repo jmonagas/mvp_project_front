@@ -328,6 +328,7 @@ export default {
 #box1 {
   background-color: #ffffcc;
   line-height: 2;
+  font-family: "Spartan", Arial, sans-serif;
 }
 #box2 {
   display: grid;

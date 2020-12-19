@@ -18,6 +18,7 @@
   padding: 20px 0;
   background-color: #ffffcc;
   color: black;
+  font-family: "Spartan", Arial, sans-serif;
 }
 a:hover {
   background-color: #ffcc00;

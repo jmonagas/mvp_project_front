@@ -14,6 +14,7 @@ export default { name: "FooterPage" };
   background-color: #ffffcc;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  font-family: "Spartan", Arial, sans-serif;
 }
 #lefty {
   background-color: gold;

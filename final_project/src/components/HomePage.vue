@@ -70,7 +70,7 @@ export default {
 
 <style scoped>
 #box1 {
-  font-family: Arial, sans-serif;
+  font-family: "Spartan", Arial, sans-serif;
   text-align: justify;
   line-height: 2;
   font-size: 16px;

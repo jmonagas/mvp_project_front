@@ -17,6 +17,7 @@ export default { name: "HeaderPage" };
 <style scoped>
 #head_box {
   text-align: center;
+  font-family: "Spartan", Arial, sans-serif;
 }
 .images {
   width: 100%;
